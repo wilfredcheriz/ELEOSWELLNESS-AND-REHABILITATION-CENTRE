@@ -93,18 +93,20 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary" />
-                <span className="text-muted-foreground">info@eleoswellness.com</span>
+                <span className="text-muted-foreground">eleoswellnesscentre@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span className="text-muted-foreground">123 Wellness Way, City, State 12345</span>
+                <span className="text-muted-foreground">Gatitu, Thika – less than 1km from the town centre</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center">
-          <p className="text-muted-foreground">© 2024 Eleos Wellness & Rehabilitation Centre. All rights reserved.</p>
+          <p className="text-muted-foreground">
+            © {new Date().getFullYear()} Eleos Wellness & Rehabilitation Centre. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
